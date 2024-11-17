@@ -20,7 +20,7 @@ function App() {
       url: 'https://youtube-data8.p.rapidapi.com/video/streaming-data/',
       params: {id: URL},
       headers: {
-        'x-rapidapi-key': 'dcf67b0885mshb575ab13e81274dp19a061jsn8e8685fd7dd8',
+        'x-rapidapi-key': import.meta.env.VITE_API_KEY,
         'x-rapidapi-host': 'youtube-data8.p.rapidapi.com',
         'content-type': 'application/json'
       }
